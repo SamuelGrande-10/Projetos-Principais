@@ -1,115 +1,44 @@
 @charset "UTF-8";
 
+/*
+-------------------------------
+ Typical Device BreakPoints    |
+-------------------------------|
+|Pequenas Telas: até 600px     |
+|Celular: De 600px até 768px   |
+|Tablet: De 768px até 992px    |
+|Desktop: De 992px até 1200px  |
+|Grandes Telas: Acima de 1200px|
+================================
+
+*/
+
+
 *{
-    padding: 0PX;
     margin: 0px;
-    box-sizing: border-box;
+    padding: 0px;
 }
 
-body{
-    background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    
-}
-
-header{
-    background-color:rgb(0, 83, 116);
-    padding: 15px;
-}
-
-header > nav{
-    padding: 10px;
-    text-align: left;
-}
-
-nav > a{
-    color: white;
-    padding: 10px;
-    text-decoration: none;
-    font-weight: bold;
-    
-}
-
-nav > a:hover{
+BODY{
     background-color:white ;
-    color: rgb(0, 83, 116);
-    border-radius: 5px;
-    transition: 0.5s;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+nav{
+    background-color: cadetblue;
 }
 
 main{
-    background-color: rgba(0, 83, 116, 0.267);
-    height: 6050px;
-    margin: 0px 100px 100px 100px;
+    background-color: cadetblue;
     padding: 20px;
-    text-align: center;
-    border-radius: 0px 0px 50px 50px;
-   
-}
-  
- p{
-    text-align: justify;
-    margin: 20px 15px;
-    font-size: 1.2em;
-}
+    border-radius: 0px 0px 20px 20px;
 
-main > h1{
-    font-family: 'Times New Roman', Times, serif;
-    text-decoration: underline;
-}
-
- h2{
-    text-align: left;
-    text-decoration: underline;
-    margin: 15px;
-    padding: 20px;
-}
-
-main > .desven{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    font-weight: bold;
-    margin: 35px;
-}
-
-section.normal{
-    padding: 20px;
-
-    display: flex;
-    flex-flow: wrap;
-}
-
-section.flex{
-    padding: 20px;
-
-    display: flex;
-    flex-flow:column nowrap;
-}
-
-div.imagens > img{
-    display: block;
+    min-width: 320px;
+    max-width: 800px;
     margin: auto;
-    width: 60%;
-    padding: 20px;
-
+    
 }
 
-
-div.imag > img{
-    display: block;
-    margin: auto;
-    width: 40%;
-    padding: 20px;
-    }
-
-div.video> iframe{
-    display: block;
-    margin: auto;
-    width: 800px;
-    height: 400px;
-    padding: 20px;
+img{
+    width: 100%;
 }
-
-
-
-
