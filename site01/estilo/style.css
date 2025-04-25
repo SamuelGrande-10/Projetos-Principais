@@ -26,6 +26,13 @@ BODY{
 
 nav{
     background-color: cadetblue;
+    padding: 10px;
+}
+
+nav > a{
+    background-color: white;
+    padding: 20px;
+    text-decoration: none;
 }
 
 main{
@@ -38,6 +45,7 @@ main{
     max-width: 1000px;
     margin: auto;
     box-shadow: 0px 0px 10px black;
+    border-radius: 0px 0px 20px 20px;
     
 }
 
